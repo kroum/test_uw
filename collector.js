@@ -1,8 +1,7 @@
 (function (w) {
   w.uwConfig = {
     host: `${w.location.protocol}//${w.location.host}`,
-    target: "http://127.0.0.1:4000",
-    elements: []
+    target: "http://127.0.0.1:4000"
   };
 
   const style = document.createElement("STYLE");
@@ -110,7 +109,4 @@
       targetNode.node.scrollIntoView();
     }
   }
-
-  w.hhN = highlightNode;
-  w.pM = (data) => frm.contentWindow.postMessage(data, w.uwConfig.target);
 })(window);

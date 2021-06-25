@@ -22,7 +22,7 @@
   w.document.head.appendChild(style);
 
   const frm = document.createElement("IFRAME");
-  frm.style = "border: 1px solid #000; width: 100%; position: absolute; left:0; top:0; width: 400px; height: 400px;";
+  frm.style = "border: 1px solid #000; width: 100%; position: fixed; left:0; top:0; width: 400px; height: 400px;";
   w.document.body.appendChild(frm);
 
   let nodesList = [];
